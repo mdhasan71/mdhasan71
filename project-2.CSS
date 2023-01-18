@@ -1,0 +1,59 @@
+body{
+    font-family: 'Beau Rivage', cursive;
+    font-size: 20px ; 
+    }
+.flexible-container {
+    display: flex;
+   }
+
+
+.mission{
+    color: rgb(231, 17, 53);
+
+
+}
+.Exploer-now{
+    text-decoration: none;
+    background-color: rgb(1, 248, 207);
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: bisque;
+    
+  }
+p{
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: aliceblue;
+}
+.half-width{
+          width: 50%;
+          padding: 8%;
+          }
+.half-width img{
+         width: 70%;
+   }
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    z-index: -1;
+
+}
+@media (min-aspect-ratio: 16/9 ){
+    .back-video{
+        width: 100%;
+        height: auto;
+
+    
+    }
+}
+   @media (max-aspect-ratio: 16/9 ){
+    .back-video{
+        width: 100%;
+        height: auto;
+        
+    
+    }
+}
+   
